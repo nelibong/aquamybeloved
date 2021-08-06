@@ -1,0 +1,89 @@
+h1 { 
+    color: skyblue; 
+    font-size: 20px;
+    letter-spacing: 20px;
+    text-align: left;
+    transform: translate(25%,30%);
+ }
+
+#title {
+	color: blanchedalmond;
+}
+#banner{ 
+	width: 100%; 
+	position:  relative;
+}
+
+.cards{
+	width:  400px;
+	height:  400px;
+	border-radius: 30px;
+}
+
+body {
+	text-align: center ;
+	font-family: 'Playfair Display', serif;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-size: 150%;
+	color: black;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 200%;
+	padding: 30px;
+}
+
+#topbanner>h2 {
+	background-color: lightcyan;
+	padding: 20px;
+	border-radius: 30%;
+	opacity: 0.8;
+	border: 2px solid black;
+	top: 30%;
+	left:  8%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topbanner{
+	display: inline-flex;
+}
+
+h1,#topbanner>h2{
+	position: absolute;
+}
+
+#cards{
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#list{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px;
+}
+h1{
+	position: aboulute;
+	font-size: 400%;
+	color: whitesmoke;
+	background-color: darkslategray;
+	opacity: 0.8;
+	padding: 2%;
+	border-radius: 30px;
+}
